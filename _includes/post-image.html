@@ -1,0 +1,6 @@
+{%- comment -%}Sets post_img for include.post: front-matter image, else first <img> in the content.{%- endcomment -%}
+{%- assign post_img = include.post.image -%}
+{%- unless post_img -%}
+  {%- assign _parts = include.post.content | split: '<img src="' -%}
+  {%- if _parts.size > 1 -%}{%- assign post_img = _parts[1] | split: '"' | first -%}{%- endif -%}
+{%- endunless -%}
