@@ -140,5 +140,6 @@ What survives a session close, and where it lives:
 - **Ephemeral (rebuilt with the sandbox)** — ruby/Jekyll itself and any
   Python imaging package. The install command reinstalls Jekyll on preview
   start; for image work run `pip install pillow pillow-avif-plugin` again.
-  Git identity (`Newspaces <info@newspaces.org>`) is repo-local config, so it
-  also survives in `.git/config` once the repo has been cloned/pulled.
+  Git identity is **not** carried by the repo: `.git/config` is local to this
+  workspace, Freebuff can overwrite it, and a fresh clone will not have it —
+  so re-set it and verify the author before every commit (see step 9).
