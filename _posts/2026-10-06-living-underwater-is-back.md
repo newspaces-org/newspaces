@@ -4,6 +4,8 @@ title: "Living Underwater Is Back"
 date: 2026-10-06
 slug: living-underwater-is-back
 tags: ["Sea"]
+image: /assets/articles/living-underwater-is-back/vanguard-tennessee-reef.jpg
+thumbnail: /assets/articles/living-underwater-is-back/vanguard-tennessee-reef-thumb.jpg
 excerpt: "A new habitat on the floor of the Florida Keys is turning an old dream into working infrastructure. Vanguard is small. What may come after it is not."
 ---
 
@@ -102,3 +104,5 @@ As equipment that gradually becomes a place.
 - [Unique Group — Engineering a Human Subsea Habitat](https://www.uniquegroup.com/deep-vanguard-subsea-habitat/)
 - [NOAA — Meet Aquarius](https://sanctuaries.noaa.gov/missions/2010aquarius/meet_aquarius.html)
 - [NASA — About NEEMO](https://www.nasa.gov/missions/analog-field-testing/neemo/about-neemo-nasa-extreme-environment-mission-operations/)
+
+Image and thumbnail: DEEP, from [Vanguard installed at Tennessee Reef](https://www.deep.com/article/vanguard-installed-at-tennessee-reef).

@@ -22,7 +22,7 @@ layout: default
   {%- assign shown = 0 -%}
   {%- for p in site.posts -%}
     {%- if p.url == lead.url or shown >= 3 -%}{%- continue -%}{%- endif -%}
-    {%- include post-image.html post=p -%}
+    {%- include post-image.html post=p thumb=true -%}
     {%- unless post_img -%}{%- continue -%}{%- endunless -%}
     {%- assign shown = shown | plus: 1 %}
   <article class="ns-second">

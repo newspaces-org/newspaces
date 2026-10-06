@@ -34,7 +34,7 @@ layout: default
   <div class="ns-related-grid">
   {%- for p in site.tags[tag] -%}
     {%- if p.url == page.url or shown >= 3 -%}{%- continue -%}{%- endif -%}
-    {%- include post-image.html post=p -%}{%- unless post_img -%}{%- continue -%}{%- endunless -%}
+    {%- include post-image.html post=p thumb=true -%}{%- unless post_img -%}{%- continue -%}{%- endunless -%}
     {%- assign shown = shown | plus: 1 %}
     <a class="ns-related-item" href="{{ p.url | relative_url }}">
       <div class="halftone ns-thumb"><img src="{{ post_img | relative_url }}" alt="" loading="lazy"></div>
